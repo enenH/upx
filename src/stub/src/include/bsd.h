@@ -289,7 +289,7 @@ typedef struct
 // !!! must be the same as in p_unix.h !!!
 #define OVERHEAD        2048
 
-#define UPX_MAGIC_LE32  0x21585055          // "UPX!"
+#define UPX_MAGIC_LE32  0x30585055          // "UPX!"
 
 #if 1
 // patch constants for our loader (le32 format)
